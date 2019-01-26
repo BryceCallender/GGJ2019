@@ -8,6 +8,7 @@ public class DialogSystemController : MonoBehaviour
     private Queue<string> messages;
 
     public Text characterDialogText;
+    public GameObject bubble;
 
     // Start is called before the first frame update
     void Start()
@@ -39,12 +40,15 @@ public class DialogSystemController : MonoBehaviour
     {
         if(isEmpty())
         {
+            bubble.SetActive(false);
             return;
+            
         }
 
         string sentence = messages.Dequeue();
 
         //Slowly displays the message that it should be showing
+        bubble.SetActive(true);
         StartCoroutine(SlowlyDisplayMessage(sentence));
     }
 
