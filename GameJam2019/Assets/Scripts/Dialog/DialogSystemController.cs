@@ -55,9 +55,8 @@ public class DialogSystemController : MonoBehaviour
         {
             characterDialogText.text += letter;
             //Does 1 character on screen every 0.1 seconds
-            yield return new WaitForSeconds(0.1f);
+            yield return null;
         }
-
     }
 
     public bool isEmpty()
