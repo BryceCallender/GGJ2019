@@ -2206,6 +2206,7 @@ MonoBehaviour:
   lightPuzzle: {fileID: 1795686383}
   ramen2: {fileID: 777921735}
   hasDoneRamen: 0
+  paused: 0
 --- !u!114 &297720916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12081,9 +12082,11 @@ MonoBehaviour:
   audioSource: {fileID: 1718164714}
   puzzleSuccess: {fileID: 8300000, guid: b8bff8e5ab387442891fedc9fbc4035a, type: 3}
   puzzleFailure: {fileID: 8300000, guid: 82b648116ff8649499ed081706b04791, type: 3}
-  puzzle1Playing: {fileID: 0}
+  puzzle1Playing: {fileID: 8300000, guid: 41958b8b182a7426298d9cd5833a6a68, type: 3}
   puzzle2Playing: {fileID: 0}
   mainTheme: {fileID: 8300000, guid: 310328d5cf58a48838338374f703bdf2, type: 3}
+  dialog1: {fileID: 8300000, guid: 908f06cd08dc74b92ada92e94e0ed637, type: 3}
+  dialog2: {fileID: 8300000, guid: 9283695354ddb47b2bb793c193d9fbc4, type: 3}
 --- !u!4 &1718164713
 Transform:
   m_ObjectHideFlags: 0

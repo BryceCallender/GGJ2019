@@ -18,6 +18,9 @@ public class AudioSourceController : MonoBehaviour
 
     public AudioClip mainTheme;
 
+    public AudioClip dialog1;
+    public AudioClip dialog2;
+
     private void Awake()
     {
         if(instance == null)
@@ -61,6 +64,18 @@ public class AudioSourceController : MonoBehaviour
     public void PlayMainTheme()
     {
         audioSource.clip = mainTheme;
+        audioSource.Play();
+    }
+
+    public void PlayDialog1Audio()
+    {
+        audioSource.clip = dialog1;
+        audioSource.Play();
+    }
+
+    public void PlayDialog2Audio()
+    {
+        audioSource.clip = dialog2;
         audioSource.Play();
     }
 }
