@@ -7,10 +7,12 @@ public class LeaveBakery : MonoBehaviour
 {
 
 	public GameObject puzzle;
+	public GameObject player;
     
     void OnTriggerEnter(Collider other)
     {
-    	if (puzzle.GetComponent<LightPuzzle>().isOver){
+    	if (puzzle.GetComponent<LightPuzzle>().isOver && other.gameObject.name == "DialogTriggerBox2" 
+    			&& player.GetComponent<DialogSystemController>().isEmpty()){
     		SceneManager.LoadScene("City");
     	}
     }
