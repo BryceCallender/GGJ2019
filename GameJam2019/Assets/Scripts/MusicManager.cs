@@ -31,7 +31,7 @@ public class MusicManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode){
     	Debug.Log(scene.name);
-    	if (scene.name == "TestScene"){
+    	if (scene.name == "City"){
     		Destroy(this.gameObject);
     	}
     }

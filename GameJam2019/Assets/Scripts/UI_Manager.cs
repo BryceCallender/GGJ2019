@@ -24,10 +24,6 @@ public class UI_Manager : MonoBehaviour
     	SceneManager.LoadScene("Main Menu");
     }
 
-    public void TestScene(){
-        SceneManager.LoadScene("TestScene");
-    }
-
     public void Quit()
     {
     	Application.Quit();
