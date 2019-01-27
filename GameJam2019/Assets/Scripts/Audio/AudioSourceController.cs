@@ -13,6 +13,8 @@ public class AudioSourceController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip puzzleSuccess;
     public AudioClip puzzleFailure;
+    public AudioClip puzzle1Playing;
+    public AudioClip puzzle2Playing;
 
     public AudioClip mainTheme;
 
@@ -41,6 +43,18 @@ public class AudioSourceController : MonoBehaviour
     public void PlayFailure()
     {
         audioSource.clip = puzzleFailure;
+        audioSource.Play();
+    }
+
+    public void PlayPuzzle1Audio()
+    {
+        audioSource.clip = puzzle1Playing;
+        audioSource.Play();
+    }
+
+    public void PlayPuzzle2Audio()
+    {
+        audioSource.clip = puzzle2Playing;
         audioSource.Play();
     }
 
