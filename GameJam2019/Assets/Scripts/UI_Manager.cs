@@ -45,6 +45,10 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
+    public void pause_button(){
+    	pause_all();
+    }
+
     //------
     // Helper Functions
     //------

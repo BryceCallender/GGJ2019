@@ -6338,7 +6338,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 374730412}
-        m_MethodName: hidePaused
+        m_MethodName: pause_button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
