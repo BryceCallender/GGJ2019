@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+enum Direction
+{
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST
+}
+
 public class SwappingPuzzle : Puzzle
 {
     public GameObject swappingPuzzle;
     public GameObject emptyQuad;
 
-    public GameObject[,] quads;
+    public GameObject[,] quads; // just for changing the material
     public Material[,] quadMaterials;
     private Material[,] correctQuadMaterials;
     public Material emptyQuadMaterial;
@@ -18,6 +26,8 @@ public class SwappingPuzzle : Puzzle
     private Transform swappingPuzzleTransform;
 
     [SerializeField] Vector2 quadLocation;
+    Direction direction;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +37,9 @@ public class SwappingPuzzle : Puzzle
         quads = new GameObject[n, n];
 
         //amount of children
-        numberOfQuads = swappingPuzzle.transform.childCount; 
+        numberOfQuads = swappingPuzzle.transform.childCount;
+
+        int counter = 0;
 
         //used to take empty game object and find out how many children are a 
         //part of it, so the amount of quads in the game
@@ -37,64 +49,93 @@ public class SwappingPuzzle : Puzzle
         {
             for (int j = 0; j < numberOfQuads / n; j++)
             {
-                Debug.Log("Set material for " + i + " " + j);
-                correctQuadMaterials[i, j] = swappingPuzzleTransform.GetChild(j).GetComponent<Renderer>().material;
-                quads[i,j] = swappingPuzzleTransform.GetChild(j).gameObject;
+                correctQuadMaterials[i,j] = swappingPuzzleTransform.GetChild(counter).GetComponent<Renderer>().material;
+                quads[i,j] = swappingPuzzleTransform.GetChild(counter).gameObject;
+                quadMaterials[i,j] = correctQuadMaterials[i, j];
+                counter++;
             }
         }
 
-       //shuffleQuads();
+       //ShuffleQuads();
     }
 
     // Update is called once per frame
     void Update()
     {
-        processInputs();
-        checkIfWon();
+        ProcessInputs();
+        //checkIfWon();
+        Debug.Log(checkIfWon());
     }
 
-    private void processInputs()
+    private void ProcessInputs()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
-            //Check if quad can go down
-            if(quadLocation.y > 0)
+            //Check if quad can go down and do it if it can
+            if(quadLocation.x < n - 1)
             {
-                quadLocation.y -= 1;
+                SwapMaterials((int)quadLocation.x, (int)quadLocation.y, Direction.NORTH);
             }
-            //Make quad go down
+
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
-            //Check if quad can go up 
-            //Make quad go up 
+            //Check if quad can go up
+            if(quadLocation.x > 0)
+            {
+                SwapMaterials((int)quadLocation.x, (int)quadLocation.y, Direction.SOUTH);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             //Check if quad can go right 
-            //Make quad go right 
+            if (quadLocation.y < n - 1)
+            {
+                SwapMaterials((int)quadLocation.x, (int)quadLocation.y, Direction.EAST);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             //Check if quad can go left 
-            //Make quad go left 
+            if (quadLocation.y > 0)
+            {
+                SwapMaterials((int)quadLocation.x, (int)quadLocation.y, Direction.WEST);
+            }
         }
     }
 
     //Swaps the empty quad with a new texture in the coordinates passed in
-    private void swapMaterials(int i, int j)
+    private void SwapMaterials(int x, int y, Direction direction)
     {
-        Material temp = quadMaterials[i,j];
+        //Old location of the quad now has the old material of the last quad
+        //in that location
+        switch(direction)
+        {
+            case Direction.NORTH: x += 1;
+                break;
+            case Direction.SOUTH: x -= 1;
+                break;
+            case Direction.EAST: y += 1;
+                break;
+            case Direction.WEST: y -= 1;
+                break;
+        }
 
-        quadMaterials[i, j] = emptyQuadMaterial;
+        Material temp = quadMaterials[x, y];
 
-        quadMaterials[(int)quadLocation.x, (int)quadLocation.y] = temp;
+        //New location has the empty quad 
+        quadMaterials[x, y] = emptyQuadMaterial;
+        quads[x, y].GetComponent<Renderer>().material = emptyQuadMaterial;
 
-        quadLocation.x = i;
-        quadLocation.y = j;
+        //Setting the empty quad 
+        quadMaterials[(int)quadLocation.x,(int)quadLocation.y] = temp;
+        quads[(int)quadLocation.x, (int)quadLocation.y].GetComponent<Renderer>().material = temp;
+
+        quadLocation.x = x;
+        quadLocation.y = y;
     }
 
-    private void shuffleQuads()
+    private void ShuffleQuads()
     {
         for (int i = 0; i < numberOfQuads / n; i++)
         {
@@ -103,13 +144,11 @@ public class SwappingPuzzle : Puzzle
                 int x = Random.Range(0, numberOfQuads) / n;
                 int y = Random.Range(0, numberOfQuads) / n;
 
-                //Debug.Log(x + " " + y);
-
                 quadMaterials[i, j] = correctQuadMaterials[x,y];
 
                 if (quadMaterials[i, j] == emptyQuadMaterial)
                 {
-                    Debug.Log("Empty Quad:" + i + " " + j);
+                    //Debug.Log("Empty Quad:" + i + " " + j);
                     quadLocation = new Vector2(i, j);
                 }
             }
@@ -128,7 +167,7 @@ public class SwappingPuzzle : Puzzle
         {
             for (int j = 0; j < numberOfQuads / n; j++)
             {
-                if(quadMaterials[i,j] != correctQuadMaterials[i,j])
+                if (!correctQuadMaterials[i, j].name.Contains(quadMaterials[i, j].name))
                 {
                     return false;
                 }
@@ -139,6 +178,6 @@ public class SwappingPuzzle : Puzzle
 
     public override string getPuzzleName()
     {
-        return "Swapping Puzzle!";
+        return puzzleName;
     }
 }
