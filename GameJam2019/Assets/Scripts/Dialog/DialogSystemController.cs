@@ -119,11 +119,8 @@ public class DialogSystemController : MonoBehaviour
     {
         if(!bubble.activeSelf)
         {
-            if(other.CompareTag("Bakery"))
-            {
-                lightPuzzle.SetActive(true);
-            }
-            else if(other.CompareTag("Ramen") && !hasSwappedCamera)
+            
+             if(other.CompareTag("Ramen") && !hasSwappedCamera)
             {
                 CameraSwapScript.Instance.SwitchCamera();
                 hasSwappedCamera = true;
