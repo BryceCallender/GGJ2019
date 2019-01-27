@@ -15,6 +15,7 @@ public class DialogSystemController : MonoBehaviour
 
     private bool isTyping;
     private bool hasDoneTutorial;
+    private bool hasSwappedCamera = false;
 
     private void Awake()
     {
@@ -107,9 +108,11 @@ public class DialogSystemController : MonoBehaviour
             {
                 lightPuzzle.SetActive(true);
             }
-            else if(other.CompareTag("Ramen"))
+            else if(other.CompareTag("Ramen") && !hasSwappedCamera)
             {
-                //swapPuzzle.SetActive(true);
+                CameraSwapScript.Instance.SwitchCamera();
+                hasSwappedCamera = true;
+                InteractionPauseMovementAndCamera();
             }
         }
     }
