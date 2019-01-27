@@ -184,6 +184,7 @@ public class SwappingPuzzle : Puzzle
                 }
             }
         }
+        gameObject.SetActive(false);
         ResumePlayer();
         return true;
     }

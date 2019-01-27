@@ -9,6 +9,7 @@ TagManager:
   - Bakery
   - Ramen
   - Intro
+  - Ramen2
   layers:
   - Default
   - TransparentFX

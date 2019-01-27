@@ -1274,7 +1274,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5796
+  m_Name: pb_Mesh363588
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1846,7 +1846,7 @@ Transform:
   m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 68
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &240559192
 Light:
@@ -1892,7 +1892,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5884
+  m_Name: pb_Mesh363684
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2204,6 +2204,8 @@ MonoBehaviour:
   bubble: {fileID: 1303334377}
   swapPuzzle: {fileID: 2146767990}
   lightPuzzle: {fileID: 1795686383}
+  ramen2: {fileID: 777921735}
+  hasDoneRamen: 0
 --- !u!114 &297720916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3748,7 +3750,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5478
+  m_Name: pb_Mesh363226
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4699,7 +4701,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5550
+  m_Name: pb_Mesh363294
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4882,7 +4884,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 65
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 24.17, y: -183.2, z: 0}
 --- !u!108 &582101703
 Light:
@@ -5284,7 +5286,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 64
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &697176602
 Light:
@@ -5330,7 +5332,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5388
+  m_Name: pb_Mesh363124
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5513,7 +5515,7 @@ Transform:
   m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 69
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &742420463
 Light:
@@ -5743,6 +5745,161 @@ MonoBehaviour:
     - Welcome to the oven puzzle. Here you will be clicking on buttons.
     - Each click on a button will do something different.
     - The goal of the puzzle is to get all the oven with the green light at 400 F.
+--- !u!1 &777921735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777921736}
+  - component: {fileID: 777921740}
+  - component: {fileID: 777921739}
+  - component: {fileID: 777921738}
+  - component: {fileID: 777921737}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Ramen2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777921736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777921735}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.00000047683716, y: 0, z: -4.6300015}
+  m_LocalScale: {x: 15.270018, y: 5, z: 4.000002}
+  m_Children: []
+  m_Father: {fileID: 1506960417}
+  m_RootOrder: 64
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &777921737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777921735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d05e6ed196a4673ab57c6fc84b7149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialog:
+    hasRead: 0
+    name: Ramen speech after fixing
+    messages:
+    - "Sohei - It\u2019s done."
+    - "Tomaki - Oh, thank you, thank you. You\u2019ve done me a real favor."
+    - Sohei - It was nothing really--
+    - "Tomaki - Nonsense. If you hadn\u2019t fixed my menu, I\u2019d be out of business
+      soon.  Now, let me thank you. I shall cook for you the very best ramen.\n"
+    - 'Sohei - But my grandma--
+
+'
+    - Tomaki - Who do you think she learned it from?
+    - "Sohei - I\u2019m sorry?\n"
+    - "Tomaki - I didn\u2019t recognize your name at first, but then it dawned on
+      me. Your grandmother used to be a regular of mine years ago, before you were
+      born. \n"
+    - Tomaki - After what happened to your parents, and what with having to raise
+      you, she stopped coming by.
+    - Sohei - I never knew.
+    - Tomaki - How could you? She never brought you here, but now I know why. She
+      took what I taught her and made it for you, adding all the love only a grandparent
+      could.
+    - Sohei - So then you know she passed a while back?
+    - Tomaki - Yes, I heard as much.
+    - "Sohei - So then you also know I\u2019ll never taste her ramen again.\n"
+    - "Tomaki - And I wouldn\u2019t pretend I could replicate it. But humor an old
+      man. I\u2019ve never had a family to cook for. Let me make you ramen and maybe,
+      just maybe, it\u2019ll be the second-best you\u2019ve ever had. So what do you
+      say?"
+    - 'Sohei - Okay, but no seaweed.
+
+'
+    - 'Tomaki - *laughing* Sure thing. One super special homestyle ramen with no seaweed
+      coming right up!
+
+'
+    - Tomaki - Here you go. Enjoy.
+    - "Sohei - *eating* Wow, it\u2019s actually pretty close to hers. \n"
+    - "Tomaki - So? What\u2019s the verdict?"
+    - "Sohei - It\u2019s good--no, it\u2019s really good. It\u2019s almost like eating
+      hers."
+    - "Tomaki - I\u2019m glad. I\u2019m okay with second place. Please come by whenever
+      you want. This will be the Sohei special. So exclusive, only you can eat it!"
+    - "Sohei - That\u2019s really not necessary."
+    - Tomaki - Maybe, but the offer still stands.
+    - Sohei - Thanks Tomaki.
+    - "Tomaki - I\u2019ll see you soon?\n"
+    - Sohei - Yes.
+    - Tomaki - Bye now.
+    - Sohei - Bye.
+--- !u!65 &777921738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777921735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &777921739
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777921735}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &777921740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777921735}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &780976152
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,7 +6219,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5744
+  m_Name: pb_Mesh363536
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7198,7 +7355,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884719278}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7219,9 +7376,75 @@ MonoBehaviour:
     hasRead: 0
     name: Swapping Puzzle
     messages:
-    - This puzzles uses WASD or the ARROW keys to navigate the menu items.
-    - The goal is to sort the items in alphabetical order with the black square in
-      the bottom right.
+    - 'Sohei - *Clears throat*
+
+'
+    - 'Tomaki - Welcome, welcome. Please have a seat.
+
+'
+    - "Sohei - Oh, I\u2019m not here for a meal.\n"
+    - "Tomaki - Do you not like ramen? I make the best spicy miso ramen. Are you sure
+      you don\u2019t want a bowl?"
+    - "Sohei - Yes, I don\u2019t really like restaurant ramen.\n"
+    - Tomaki - Ehhhhh?!?! Are you saying you prefer store-bought?
+    - Sohei - Yes, but my grandma would do it up her way. Nothing can compare.
+    - "Tomaki - I should ask her for her recipe. Maybe then you\u2019ll eat at my
+      place."
+    - 'Sohei (to himself) - Should I tell him?
+
+'
+    - Tomaki - Let me know your name.
+    - 'Sohei: Sohei'
+    - "Tomaki - I\u2019m Tomaki Setsuro, the \u201Cblind noodle.\u201D"
+    - "Sohei - \u201CBlind...noodle?\u201D"
+    - "Tomaki - *Nodding* You probably can\u2019t tell, but I\u2019m blind as a bat.
+      I\u2019ve worked hard to master the art of ramen despite my disadvantage. I\u2019m
+      well-known around these parts or at least I used to be."
+    - "Sohei - I\u2019m impressed."
+    - "Tomaki - Taste my ramen and you\u2019ll really be impressed."
+    - Sohei - You said you used to be well-known? What happened?
+    - "Tomaki - I haven\u2019t a clue. One day customers started complaining I was
+      getting their order wrong, but I\u2019ve had the same menu for 25 years. I know
+      it like the back of my hand. *Laughs* Or so to speak."
+    - 'Sohei: And you make everything the same way?'
+    - Tomaki - I know better than to mess with perfection. My broths are as rich and
+      fragrant as ever.
+    - "Sohei - But the customers say you\u2019re getting their orders wrong?"
+    - "Tomaki - Yes, then they don\u2019t return and they tell other people not to
+      come. They say \u201CTomaki\u2019s lost his edge. Every order is a disappointing
+      surprise.\u201D You young people expect everything to be exactly as you imagine
+      it and anything less is unacceptable. "
+    - "Tomaki - My generation appreciates everything we get. There was a time when
+      nothing was certain and you didn\u2019t know if what you cherished would be
+      there tomorrow. "
+    - Sohei - I know the feeling.
+    - "Tomaki - It\u2019s a hard lesson, but a necessary one. You\u2019ll be better
+      for it."
+    - "Sohei - So you don\u2019t think you\u2019ve changed?"
+    - "Tomaki - Not a single bit. I\u2019m as blind today as I was when I opened the
+      place. "
+    - Sohei (to himself) - What can I do? I need to talk with Mika
+    - Tomaki - Still there?
+    - Sohei - Yes, sorry. How do I order?
+    - Tomaki - Just tell me, from left to right, which one you want.
+    - "Sohei - I guess I\u2019ll have the third one."
+    - 'Tomaki - One Onomichi coming right up.
+
+'
+    - 'Sohei - Onomichi?
+
+'
+    - Tomaki - Yes, that should be the third one. I had some kids help me put the
+      menu in alphabetical order.
+    - 'Sohei - I think they got it wrong.
+
+'
+    - "Tomaki - So that\u2019s why I\u2019ve been getting the orders wrong. Would
+      you mind helping me fix it?\n"
+    - "Pressing the \u201CWASD\u201D buttons or arrow keys will move a tile in the
+      desired direction. Only the tile that can move in the direction you indicate
+      will slide into the empty slot."
+    - Reorganize the tiles back into alphabetical order for Tomaki
 --- !u!23 &884719282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7760,7 +7983,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5968
+  m_Name: pb_Mesh363784
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9350,7 +9573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1269110083
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9598,7 +9821,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5346
+  m_Name: pb_Mesh363092
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9850,7 +10073,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5538
+  m_Name: pb_Mesh363282
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10033,7 +10256,7 @@ Transform:
   m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1388166973
 Light:
@@ -10148,7 +10371,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5604
+  m_Name: pb_Mesh363356
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11041,7 +11264,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh5732
+  m_Name: pb_Mesh363524
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11858,7 +12081,9 @@ MonoBehaviour:
   audioSource: {fileID: 1718164714}
   puzzleSuccess: {fileID: 8300000, guid: b8bff8e5ab387442891fedc9fbc4035a, type: 3}
   puzzleFailure: {fileID: 8300000, guid: 82b648116ff8649499ed081706b04791, type: 3}
-  mainTheme: {fileID: 8300000, guid: efdf062b5343744ab9dcd33dd33fc6bd, type: 3}
+  puzzle1Playing: {fileID: 0}
+  puzzle2Playing: {fileID: 0}
+  mainTheme: {fileID: 8300000, guid: 310328d5cf58a48838338374f703bdf2, type: 3}
 --- !u!4 &1718164713
 Transform:
   m_ObjectHideFlags: 0
@@ -11986,7 +12211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1733086558
 Transform:
   m_ObjectHideFlags: 0
@@ -12208,7 +12433,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 70
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1795686383
 GameObject:
@@ -12486,7 +12711,7 @@ Transform:
   m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1506960417}
-  m_RootOrder: 66
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1912342621
 Light:

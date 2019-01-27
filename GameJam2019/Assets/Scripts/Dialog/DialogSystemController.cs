@@ -12,10 +12,13 @@ public class DialogSystemController : MonoBehaviour
 
     public GameObject swapPuzzle;
     public GameObject lightPuzzle;
+    public GameObject ramen2;
 
     private bool isTyping;
     private bool hasDoneTutorial;
     private bool hasSwappedCamera = false;
+    public bool hasDoneRamen = false;
+    public bool paused = false;
 
     private void Awake()
     {
@@ -34,6 +37,13 @@ public class DialogSystemController : MonoBehaviour
         {
             Debug.Log("Hit space");
             DisplayMessage();
+        }
+
+        if(swapPuzzle.GetComponent<SwappingPuzzle>().isOver && !paused)
+        {
+            hasDoneRamen = true;
+            paused = true;
+            InteractionPauseMovementAndCamera();
         }
     }
 
@@ -92,6 +102,11 @@ public class DialogSystemController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.tag == "Ramen2")
+        {
+            return;
+        }
+
         DealWithDialog(other);
     }
 
@@ -113,6 +128,11 @@ public class DialogSystemController : MonoBehaviour
                 CameraSwapScript.Instance.SwitchCamera();
                 hasSwappedCamera = true;
                 InteractionPauseMovementAndCamera();
+                swapPuzzle.SetActive(true);
+            }
+            else if(other.CompareTag("Ramen2") && hasDoneRamen)
+            {
+                ramen2.GetComponent<CharacterDialog>().EnableDialog();
             }
         }
     }
