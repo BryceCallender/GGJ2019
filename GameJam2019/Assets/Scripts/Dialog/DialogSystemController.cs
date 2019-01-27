@@ -17,6 +17,7 @@ public class DialogSystemController : MonoBehaviour
     void Start()
     {
         messages = new Queue<string>();
+        bubble.SetActive(false);
     }
 
     private void Update()
@@ -48,6 +49,7 @@ public class DialogSystemController : MonoBehaviour
         }
 
         string sentence = messages.Dequeue();
+        Debug.Log(sentence);
 
         //Slowly displays the message that it should be showing
         bubble.SetActive(true);
@@ -74,6 +76,7 @@ public class DialogSystemController : MonoBehaviour
     {
         if(tag == "Bakery")
         {
+            other.gameObject.GetComponent<CharacterDialog>().EnableDialog();
             lightPuzzle.SetActive(true);
         }
         else if(tag == "Ramen")
