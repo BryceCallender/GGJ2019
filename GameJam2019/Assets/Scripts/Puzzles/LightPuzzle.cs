@@ -18,6 +18,7 @@ public class LightPuzzle : Puzzle
     void Start()
     {
         InitLights();
+        PausePlayer();
     }
 
     // Update is called once per frame
@@ -113,11 +114,24 @@ public class LightPuzzle : Puzzle
         }
         resetButton.SetActive(false);
         gameObject.SetActive(false);
+        ResumePlayer();
         return true;
     }
 
     public override string getPuzzleName()
     {
         return puzzleName;
+    }
+
+    public override void ResumePlayer()
+    {
+        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<CameraController>().enabled = true;
+    }
+
+    public override void PausePlayer()
+    {
+        player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<CameraController>().enabled = false;
     }
 }

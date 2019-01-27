@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 enum Direction
 {
@@ -21,6 +22,8 @@ public class SwappingPuzzle : Puzzle
     private Material[,] correctQuadMaterials;
     public Material emptyQuadMaterial;
 
+    public string[] names;
+
     private readonly int n = 3;
     private int numberOfQuads;
     private Transform swappingPuzzleTransform;
@@ -35,6 +38,7 @@ public class SwappingPuzzle : Puzzle
         quadMaterials = new Material[n, n];
         correctQuadMaterials = new Material[n, n];
         quads = new GameObject[n, n];
+        names = new string[n * n];
 
         //amount of children
         numberOfQuads = swappingPuzzle.transform.childCount;
@@ -52,11 +56,13 @@ public class SwappingPuzzle : Puzzle
                 correctQuadMaterials[i,j] = swappingPuzzleTransform.GetChild(counter).GetComponent<Renderer>().material;
                 quads[i,j] = swappingPuzzleTransform.GetChild(counter).gameObject;
                 quadMaterials[i,j] = correctQuadMaterials[i, j];
+                names[counter] = correctQuadMaterials[i, j].name;
                 counter++;
             }
         }
 
-       //ShuffleQuads();
+        System.Array.Sort(names);
+        PausePlayer();
     }
 
     // Update is called once per frame
@@ -129,7 +135,7 @@ public class SwappingPuzzle : Puzzle
         //New location has the empty quad 
         quadMaterials[x, y] = emptyQuadMaterial;
         quads[x, y].GetComponent<Renderer>().material = emptyQuadMaterial;
-
+  
         //Setting the empty quad 
         quadMaterials[(int)quadLocation.x,(int)quadLocation.y] = temp;
         quads[(int)quadLocation.x, (int)quadLocation.y].GetComponent<Renderer>().material = temp;
@@ -170,17 +176,30 @@ public class SwappingPuzzle : Puzzle
         {
             for (int j = 0; j < numberOfQuads / n; j++)
             {
-                if (!correctQuadMaterials[i, j].name.Contains(quadMaterials[i, j].name))
+                if (!names[(i * n) + j].Contains(quadMaterials[i,j].name))
                 {
                     return false;
                 }
             }
         }
+        ResumePlayer();
         return true;
     }
 
     public override string getPuzzleName()
     {
         return puzzleName;
+    }
+
+    public override void ResumePlayer()
+    {
+        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<CameraController>().enabled = true;
+    }
+
+    public override void PausePlayer()
+    {
+        player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<CameraController>().enabled = false;
     }
 }

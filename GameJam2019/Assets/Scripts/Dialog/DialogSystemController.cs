@@ -13,17 +13,25 @@ public class DialogSystemController : MonoBehaviour
     public GameObject swapPuzzle;
     public GameObject lightPuzzle;
 
+    private bool isTyping;
+    private bool hasDoneTutorial;
+
+    private void Awake()
+    {
+        messages = new Queue<string>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        messages = new Queue<string>();
         bubble.SetActive(false);
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && !isTyping)
         {
+            Debug.Log("Hit space");
             DisplayMessage();
         }
     }
@@ -34,8 +42,12 @@ public class DialogSystemController : MonoBehaviour
 
         foreach(string message in dialog.messages)
         {
-            messages.Enqueue(message);
+            if (!dialog.hasRead)
+            {
+                messages.Enqueue(message);
+            }
         }
+        dialog.hasRead = true;
 
         DisplayMessage();
     }
@@ -45,11 +57,14 @@ public class DialogSystemController : MonoBehaviour
         if(isEmpty())
         {
             bubble.SetActive(false);
+            InteractionUnPauseMovementAndCamera();
             return; 
         }
 
+        Debug.Log(messages.Count);
         string sentence = messages.Dequeue();
         Debug.Log(sentence);
+
 
         //Slowly displays the message that it should be showing
         bubble.SetActive(true);
@@ -61,10 +76,12 @@ public class DialogSystemController : MonoBehaviour
         characterDialogText.text = "";
         foreach(char letter in message)
         {
+            isTyping = true;
             characterDialogText.text += letter;
             //Does 1 character on screen every frame
             yield return null;
         }
+        isTyping = false;
     }
 
     public bool isEmpty()
@@ -74,14 +91,60 @@ public class DialogSystemController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(tag == "Bakery")
+        DealWithDialog(other);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        this.enabled = false;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if(!bubble.activeSelf)
         {
-            other.gameObject.GetComponent<CharacterDialog>().EnableDialog();
-            lightPuzzle.SetActive(true);
+            if(other.CompareTag("Bakery"))
+            {
+                lightPuzzle.SetActive(true);
+            }
+            else if(other.CompareTag("Ramen"))
+            {
+                //swapPuzzle.SetActive(true);
+            }
         }
-        else if(tag == "Ramen")
+    }
+
+    private void DealWithDialog(Collider other)
+    {
+        this.enabled = true;
+
+        if(hasDoneTutorial && other.CompareTag("Intro"))
         {
-            swapPuzzle.SetActive(true);
+            return;
         }
+
+        CharacterDialog dialog = other.GetComponent<CharacterDialog>();
+
+        if (dialog)
+        {
+            if(other.tag == "Intro")
+            {
+                hasDoneTutorial = true;
+            }
+            InteractionPauseMovementAndCamera();
+            dialog.EnableDialog();
+        }
+    }
+
+    private void InteractionPauseMovementAndCamera()
+    {
+        this.GetComponent<PlayerMovement>().enabled = false;
+        this.GetComponent<CameraController>().enabled = false;
+    }
+
+    private void InteractionUnPauseMovementAndCamera()
+    {
+        this.GetComponent<PlayerMovement>().enabled = true;
+        this.GetComponent<CameraController>().enabled = true;
     }
 }
