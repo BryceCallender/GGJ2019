@@ -7,25 +7,31 @@ public class LightPuzzle : Puzzle
 {
     public GameObject[] lights;
 
-    int numLights = 5;
+    readonly int numLights = 5;
+
     public Color onColor;
     public Color offColor;
+
+    public GameObject resetButton;
 
     // Start is called before the first frame update
     void Start()
     {
-        ResetLights();
+        InitLights();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (checkIfWon() && !isOver) 
+        {
+            isOver = true;
+            AudioSourceController.Instance.PlaySuccess();
+        }
     }
 
-    public void ResetLights()
+    public void InitLights()
     {
-        Debug.Log("Resetting the lights");
         for (int i = 0; i < numLights; i++)
         {
             if (i == 1 || i == 3)
@@ -39,6 +45,13 @@ public class LightPuzzle : Puzzle
                 lights[i].GetComponentInChildren<Text>().text = "350 F";
             }
         }
+    }
+
+    public void ResetLights()
+    {
+        Debug.Log("Resetting the lights");
+        InitLights();
+        AudioSourceController.Instance.PlayFailure();
     }
 
     public void DetermineLightChange(int index)
@@ -93,11 +106,13 @@ public class LightPuzzle : Puzzle
     {
         for(int i = 0; i < numLights; i++)
         {
-            if(lights[i].GetComponent<Renderer>().material.color != onColor)
+            if(lights[i].GetComponent<Image>().color != onColor)
             {
                 return false;
             }
         }
+        resetButton.SetActive(false);
+        gameObject.SetActive(false);
         return true;
     }
 

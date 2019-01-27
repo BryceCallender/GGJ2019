@@ -63,8 +63,11 @@ public class SwappingPuzzle : Puzzle
     void Update()
     {
         ProcessInputs();
-        //checkIfWon();
-        Debug.Log(checkIfWon());
+        if(checkIfWon() && !isOver)
+        {
+            isOver = true;
+            AudioSourceController.Instance.PlaySuccess();
+        }
     }
 
     private void ProcessInputs()

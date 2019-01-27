@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ContinuousMusic
   - ShowOnPaused
+  - Bakery
+  - Ramen
   layers:
   - Default
   - TransparentFX

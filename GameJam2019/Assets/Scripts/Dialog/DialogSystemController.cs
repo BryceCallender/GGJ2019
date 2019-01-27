@@ -10,6 +10,9 @@ public class DialogSystemController : MonoBehaviour
     public Text characterDialogText;
     public GameObject bubble;
 
+    public GameObject swapPuzzle;
+    public GameObject lightPuzzle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,8 +44,7 @@ public class DialogSystemController : MonoBehaviour
         if(isEmpty())
         {
             bubble.SetActive(false);
-            return;
-            
+            return; 
         }
 
         string sentence = messages.Dequeue();
@@ -58,7 +60,7 @@ public class DialogSystemController : MonoBehaviour
         foreach(char letter in message)
         {
             characterDialogText.text += letter;
-            //Does 1 character on screen every 0.1 seconds
+            //Does 1 character on screen every frame
             yield return null;
         }
     }
@@ -66,5 +68,17 @@ public class DialogSystemController : MonoBehaviour
     public bool isEmpty()
     {
         return messages.Count == 0;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(tag == "Bakery")
+        {
+            lightPuzzle.SetActive(true);
+        }
+        else if(tag == "Ramen")
+        {
+            swapPuzzle.SetActive(true);
+        }
     }
 }
