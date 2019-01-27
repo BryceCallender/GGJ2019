@@ -364,6 +364,53 @@ ModelImporter:
     4300088: pPlane11
     4300090: pPlane12
     4300092: pPlane13
+    6400000: pasted__pCylinder10
+    6400002: pasted__pCylinder9
+    6400004: pCube1
+    6400006: pCube12
+    6400008: pCube13
+    6400010: pCube14
+    6400012: pCube2
+    6400014: pCube3
+    6400016: pCube6
+    6400018: pCube7
+    6400020: pCube8
+    6400022: pCube9
+    6400024: pCylinder12
+    6400026: pCylinder13
+    6400028: pCylinder14
+    6400030: pCylinder15
+    6400032: pCylinder2
+    6400034: pCylinder3
+    6400036: pCylinder4
+    6400038: pCylinder5
+    6400040: pCylinder6
+    6400042: pPlane1
+    6400044: pPlane10
+    6400046: pPlane11
+    6400048: pPlane12
+    6400050: pPlane13
+    6400052: pPlane2
+    6400054: pPlane3
+    6400056: pPlane4
+    6400058: pPlane5
+    6400060: pPlane8
+    6400062: pPlane9
+    6400064: pSphere1
+    6400066: pSphere2
+    6400068: pSphere3
+    6400070: pSphere4
+    6400072: pSphere5
+    6400074: pSphere6
+    6400076: pSphere7
+    6400078: ramen_bowl:pCube1
+    6400080: ramen_bowl:pCube2
+    6400082: ramen_bowl:pPlane1
+    6400084: ramen_bowl:pPlane2
+    6400086: ramen_bowl:pSphere1
+    6400088: ramen_bowl:pSphere2
+    6400090: ramen_bowl:pSphere3
+    6400092: typeMesh1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -397,7 +444,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
