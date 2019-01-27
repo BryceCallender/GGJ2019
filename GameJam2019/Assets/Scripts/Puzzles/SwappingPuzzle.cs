@@ -73,6 +73,8 @@ public class SwappingPuzzle : Puzzle
         {
             isOver = true;
             AudioSourceController.Instance.PlaySuccess();
+            CameraSwapScript.Instance.SwitchCamera();
+            ResumePlayer();
         }
     }
 
