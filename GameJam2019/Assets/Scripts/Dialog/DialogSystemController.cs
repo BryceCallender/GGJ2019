@@ -20,6 +20,8 @@ public class DialogSystemController : MonoBehaviour
     public bool hasDoneRamen = false;
     public bool paused = false;
 
+    public bool mcTalksFirst = true;
+
     private void Awake()
     {
         messages = new Queue<string>();
@@ -84,6 +86,15 @@ public class DialogSystemController : MonoBehaviour
 
     private IEnumerator SlowlyDisplayMessage(string message)
     {
+        if(message.Contains("Sohei"))
+        {
+            AudioSourceController.Instance.PlayDialog1Audio();
+        }
+        else
+        {
+            AudioSourceController.Instance.PlayDialog2Audio();
+        }
+
         characterDialogText.text = "";
         foreach(char letter in message)
         {
