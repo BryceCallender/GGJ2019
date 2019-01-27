@@ -19,6 +19,7 @@ public class LightPuzzle : Puzzle
     {
         InitLights();
         PausePlayer();
+        AudioSourceController.Instance.PlayPuzzle1Audio();
     }
 
     // Update is called once per frame
