@@ -113,7 +113,7 @@ public class DialogSystemController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Ramen2")
+        if(other.tag == "Ramen2" || (other.tag == "BakeryExit" && !lightPuzzle.GetComponent<LightPuzzle>().isOver))
         {
             return;
         }
@@ -130,8 +130,11 @@ public class DialogSystemController : MonoBehaviour
     {
         if(!bubble.activeSelf)
         {
-            
-             if(other.CompareTag("Ramen") && !hasSwappedCamera)
+            if(other.CompareTag("Bakery"))
+            {
+                lightPuzzle.SetActive(true);
+            }
+            else if (other.CompareTag("Ramen") && !hasSwappedCamera)
             {
                 CameraSwapScript.Instance.SwitchCamera();
                 hasSwappedCamera = true;

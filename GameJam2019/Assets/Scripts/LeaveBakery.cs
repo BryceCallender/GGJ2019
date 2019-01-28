@@ -16,4 +16,13 @@ public class LeaveBakery : MonoBehaviour
     		SceneManager.LoadScene("City");
     	}
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (puzzle.GetComponent<LightPuzzle>().isOver && other.gameObject.name == "DialogTriggerBox2"
+                && player.GetComponent<DialogSystemController>().isEmpty())
+        {
+            SceneManager.LoadScene("City");
+        }
+    }
 }

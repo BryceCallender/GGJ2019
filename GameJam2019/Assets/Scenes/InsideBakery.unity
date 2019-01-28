@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 42418923}
   m_Layer: 0
   m_Name: DialogTriggerBox2
-  m_TagString: Untagged
+  m_TagString: BakeryExit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -439,7 +439,7 @@ Transform:
   m_GameObject: {fileID: 42418922}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 384.14, y: 261.85, z: -428.21}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: -11.36, y: 4, z: 26.47}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -3909,6 +3909,10 @@ MonoBehaviour:
   bubble: {fileID: 1414742089}
   swapPuzzle: {fileID: 1967546787}
   lightPuzzle: {fileID: 1190737994}
+  ramen2: {fileID: 0}
+  hasDoneRamen: 0
+  paused: 0
+  mcTalksFirst: 1
 --- !u!114 &1408608080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5153,6 +5157,8 @@ MonoBehaviour:
   puzzle1Playing: {fileID: 8300000, guid: 41958b8b182a7426298d9cd5833a6a68, type: 3}
   puzzle2Playing: {fileID: 0}
   mainTheme: {fileID: 8300000, guid: efdf062b5343744ab9dcd33dd33fc6bd, type: 3}
+  dialog1: {fileID: 8300000, guid: 908f06cd08dc74b92ada92e94e0ed637, type: 3}
+  dialog2: {fileID: 8300000, guid: 9283695354ddb47b2bb793c193d9fbc4, type: 3}
 --- !u!4 &1881407915
 Transform:
   m_ObjectHideFlags: 0

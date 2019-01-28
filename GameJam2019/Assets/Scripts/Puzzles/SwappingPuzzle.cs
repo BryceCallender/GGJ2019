@@ -35,6 +35,8 @@ public class SwappingPuzzle : Puzzle
     // Start is called before the first frame update
     void Start()
     {
+        AudioSourceController.Instance.PlayPuzzle2Audio();
+
         quadMaterials = new Material[n, n];
         correctQuadMaterials = new Material[n, n];
         quads = new GameObject[n, n];
