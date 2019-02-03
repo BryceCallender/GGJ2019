@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
+using System.Collections;
+using System.Collections.Generic;
 
 public class AudioSourceController : MonoBehaviour
 {
     private static AudioSourceController instance = null;
+
+    private static Dictionary<string, AudioClip> audioClipSources;
 
     public static AudioSourceController Instance
     {
@@ -11,15 +15,8 @@ public class AudioSourceController : MonoBehaviour
     }
 
     public AudioSource audioSource;
-    public AudioClip puzzleSuccess;
-    public AudioClip puzzleFailure;
-    public AudioClip puzzle1Playing;
-    public AudioClip puzzle2Playing;
-
-    public AudioClip mainTheme;
-
-    public AudioClip dialog1;
-    public AudioClip dialog2;
+    public List<AudioClip> audioClips;
+    public bool dialogSpeaking;
 
     private void Awake()
     {
@@ -27,55 +24,26 @@ public class AudioSourceController : MonoBehaviour
         {
             instance = this;
         }
+
+        audioClipSources = new Dictionary<string, AudioClip>();
+
+        foreach(AudioClip clip in audioClips)
+        {
+            audioClipSources.Add(clip.name, clip);
+        }
     }
 
     private void Update()
     {
-        if(!audioSource.isPlaying)
+        if(!audioSource.isPlaying && !dialogSpeaking)
         {
-            PlayMainTheme();
+            //PlayAudio("Main Theme");
         }
     }
 
-    public void PlaySuccess()
+    public void PlayAudio(string name)
     {
-        audioSource.clip = puzzleSuccess;
-        audioSource.Play();
-    }
-
-    public void PlayFailure()
-    {
-        audioSource.clip = puzzleFailure;
-        audioSource.Play();
-    }
-
-    public void PlayPuzzle1Audio()
-    {
-        audioSource.clip = puzzle1Playing;
-        audioSource.Play();
-    }
-
-    public void PlayPuzzle2Audio()
-    {
-        audioSource.clip = puzzle2Playing;
-        audioSource.Play();
-    }
-
-    public void PlayMainTheme()
-    {
-        audioSource.clip = mainTheme;
-        audioSource.Play();
-    }
-
-    public void PlayDialog1Audio()
-    {
-        audioSource.clip = dialog1;
-        audioSource.Play();
-    }
-
-    public void PlayDialog2Audio()
-    {
-        audioSource.clip = dialog2;
+        audioSource.clip = audioClipSources[name];
         audioSource.Play();
     }
 }

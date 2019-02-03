@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class DialogSystemController : MonoBehaviour
 {
     private Queue<string> messages;
 
-    public Text characterDialogText;
+    public TextMeshProUGUI characterDialogText;
     public GameObject bubble;
 
     public GameObject swapPuzzle;
@@ -51,6 +51,7 @@ public class DialogSystemController : MonoBehaviour
 
     public void StartDialog(Dialog dialog)
     {
+        AudioSourceController.Instance.dialogSpeaking = true;
         messages.Clear();
 
         foreach(string message in dialog.messages)
@@ -71,6 +72,7 @@ public class DialogSystemController : MonoBehaviour
         {
             bubble.SetActive(false);
             InteractionUnPauseMovementAndCamera();
+            AudioSourceController.Instance.dialogSpeaking = false;
             return; 
         }
 
@@ -88,11 +90,11 @@ public class DialogSystemController : MonoBehaviour
     {
         if(message.Contains("Sohei"))
         {
-            AudioSourceController.Instance.PlayDialog1Audio();
+            AudioSourceController.Instance.PlayAudio("Player Dialog");
         }
         else
         {
-            AudioSourceController.Instance.PlayDialog2Audio();
+            AudioSourceController.Instance.PlayAudio("NPC Dialog");
         }
 
         characterDialogText.text = "";

@@ -35,7 +35,7 @@ public class SwappingPuzzle : Puzzle
     // Start is called before the first frame update
     void Start()
     {
-        AudioSourceController.Instance.PlayPuzzle2Audio();
+        AudioSourceController.Instance.PlayAudio("Puzzle 2");
 
         quadMaterials = new Material[n, n];
         correctQuadMaterials = new Material[n, n];
@@ -74,7 +74,7 @@ public class SwappingPuzzle : Puzzle
         if(checkIfWon() && !isOver)
         {
             isOver = true;
-            AudioSourceController.Instance.PlaySuccess();
+            AudioSourceController.Instance.PlayAudio("Puzzle Success");
             CameraSwapScript.Instance.SwitchCamera();
             ResumePlayer();
         }

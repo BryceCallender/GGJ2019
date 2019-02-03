@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class LightPuzzle : Puzzle
 {
@@ -19,7 +20,7 @@ public class LightPuzzle : Puzzle
     {
         InitLights();
         PausePlayer();
-        AudioSourceController.Instance.PlayPuzzle1Audio();
+        AudioSourceController.Instance.PlayAudio("Puzzle 1");
     }
 
     // Update is called once per frame
@@ -28,7 +29,7 @@ public class LightPuzzle : Puzzle
         if (checkIfWon() && !isOver) 
         {
             isOver = true;
-            AudioSourceController.Instance.PlaySuccess();
+            AudioSourceController.Instance.PlayAudio("Puzzle Success");
         }
     }
 
@@ -39,12 +40,12 @@ public class LightPuzzle : Puzzle
             if (i == 1 || i == 3)
             {
                 lights[i].GetComponent<Image>().color = onColor;
-                lights[i].GetComponentInChildren<Text>().text = "400 F";
+                lights[i].GetComponentInChildren<TextMeshProUGUI>().text = "400 F";
             }
             else
             {
                 lights[i].GetComponent<Image>().color = offColor;
-                lights[i].GetComponentInChildren<Text>().text = "350 F";
+                lights[i].GetComponentInChildren<TextMeshProUGUI>().text = "350 F";
             }
         }
     }
@@ -53,7 +54,7 @@ public class LightPuzzle : Puzzle
     {
         Debug.Log("Resetting the lights");
         InitLights();
-        AudioSourceController.Instance.PlayFailure();
+        AudioSourceController.Instance.PlayAudio("Puzzle Failure");
     }
 
     public void DetermineLightChange(int index)
@@ -95,12 +96,12 @@ public class LightPuzzle : Puzzle
         if(lights[index].GetComponent<Image>().color == onColor)
         {
             lights[index].GetComponent<Image>().color = offColor;
-            lights[index].GetComponentInChildren<Text>().text = "350 F";
+            lights[index].GetComponentInChildren<TextMeshProUGUI>().text = "350 F";
         }
         else 
         {
             lights[index].GetComponent<Image>().color = onColor;
-            lights[index].GetComponentInChildren<Text>().text = "400 F";
+            lights[index].GetComponentInChildren<TextMeshProUGUI>().text = "400 F";
         }
     }
 
