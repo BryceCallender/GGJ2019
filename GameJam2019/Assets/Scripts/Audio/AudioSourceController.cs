@@ -37,7 +37,7 @@ public class AudioSourceController : MonoBehaviour
     {
         if(!audioSource.isPlaying && !dialogSpeaking)
         {
-            //PlayAudio("Main Theme");
+            PlayAudio("Main Theme");
         }
     }
 

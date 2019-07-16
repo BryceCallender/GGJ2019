@@ -20,8 +20,6 @@ public class DialogSystemController : MonoBehaviour
     public bool hasDoneRamen = false;
     public bool paused = false;
 
-    public bool mcTalksFirst = true;
-
     private void Awake()
     {
         messages = new Queue<string>();
@@ -39,7 +37,7 @@ public class DialogSystemController : MonoBehaviour
         {
             Debug.Log("Hit space");
             DisplayMessage();
-        }
+        } 
 
         if(swapPuzzle.GetComponent<SwappingPuzzle>().isOver && !paused)
         {

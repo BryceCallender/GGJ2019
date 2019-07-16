@@ -2,7 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d70f6b-2af4-4794-b65a-dda904cfd2d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2019/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2019/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2019/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2019/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/Main Theme.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/Main Theme.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE FAIL.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE FAIL.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Autosave/.dummy" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Autosave/.dummy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/DisplayState.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/DisplayState.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/DisplayStateArchive" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/DisplayStateArchive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/00/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/00/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/00/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/00/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/01/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/01/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/01/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/01/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/02/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/02/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/02/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/02/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/03/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/03/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/03/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/03/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/04/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/04/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/04/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/04/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/05/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/05/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/05/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/05/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/06/MetaData.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/06/MetaData.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/06/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/Project File Backups/06/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/ProjectData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/ProjectData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/WindowImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Alternatives/000/WindowImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#09.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#09.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#10.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#10.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#11.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_1#11.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#17.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#17.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#18.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#18.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#19.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#19.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#20.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#20.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#21.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#21.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#22.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/PUZZLE SUCCESS_2#22.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#03.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#03.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#04.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#04.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#06.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#06.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#07.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#07.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#08.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_1#08.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#02.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#02.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#03.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#03.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#05.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#05.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#06.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#06.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#07.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#07.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#09.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#09.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#11.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#11.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#12.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#12.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#13.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#13.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#14.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#14.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#15.aif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Media/Audio Files/Untitled 4_2#15.aif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Resources/ProjectInformation.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.logicx/Resources/ProjectInformation.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/PUZZLE SUCCESS.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/doorbell.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/doorbell.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/large scratch.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/large scratch.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/no.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/no.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/NPC 1 DIALOGUE.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/NPC 1 DIALOGUE.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/NPC Dialog.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/NPC Dialog.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/Player Dialog.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc dialogue/Player Dialog.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc exclamation.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/npc exclamation.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/scroll.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/scroll.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/small scratch.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/small scratch.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/yes.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/FINAL MUSIC/sfx/yes.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BakerySceneLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BakerySceneLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kitakata.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Kitakata.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kyoto.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Kyoto.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Onomichi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Onomichi.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Tokushima.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Tokushima.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Tokyo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Tokyo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wakayama.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wakayama.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Yamagata.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Yamagata.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Yokohuma.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Yokohuma.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/osaka-re.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/osaka-re.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/bakery/bakery non transparent.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/bakery/bakery non transparent.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/bakery/bakery open sign.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/bakery/bakery open sign.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/bakery/bakery.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/bakery/bakery.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/cat/sitting cat.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/cat/sitting cat.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/inside room/inside room 2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/inside room/inside room 2.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/npc accessories/apron.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/npc accessories/apron.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/npc accessories/chef capsule example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/npc accessories/chef capsule example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/npc accessories/chef hat.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/npc accessories/chef hat.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/npc accessories/ramen bandana.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/npc accessories/ramen bandana.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/npc accessories/ramen chef example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/npc accessories/ramen chef example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/RAMEN MENU.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/RAMEN MENU.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 1_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 1_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 3_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 3_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 4_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 4_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 5_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 5_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 6_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 6_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 7_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 7_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 8_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 8_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 9_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/Ramen Menu/ramen menu/Layer 9_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/UCHI.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/UCHI.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ai.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ai.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/chinese noodles.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/chinese noodles.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ramen shop no hypershade.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ramen shop no hypershade.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ramen uv.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ramen shop assets/ramen uv.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/City.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InsideBakery.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InsideBakery.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioSourceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioSourceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +181,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state>
               <folding>
-                <marker date="1548484593620" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548484593620" expanded="true" signature="123:297" ph="{...}" />
-                <marker date="1548484593620" expanded="true" signature="195:216" ph="{...}" />
-                <marker date="1548484593620" expanded="true" signature="274:295" ph="{...}" />
+                <marker date="1549235344000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549235344000" expanded="true" signature="125:666" ph="{...}" />
+                <marker date="1549235344000" expanded="true" signature="383:664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogSystemController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <marker date="1563250469598" expanded="false" signature="6:91" ph="..." />
+                <marker date="1563250469598" expanded="true" signature="144:4584" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="562:614" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="685:730" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="757:1115" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="820:906" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="980:1109" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="1159:1493" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="1305:1429" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="1348:1419" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="1528:2023" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="1556:1752" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2085:2614" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2129:2220" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2233:2321" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2401:2582" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2641:2689" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2738:2938" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2860:2900" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="2986:3028" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3076:3711" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3113:3705" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3166:3239" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3308:3532" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3596:3695" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3760:4202" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3853:3893" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="3987:4196" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="4034:4102" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="4256:4392" ph="{...}" />
+                <marker date="1563250469598" expanded="true" signature="4448:4582" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeleportToHome.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToHome.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1548633268000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548633268000" expanded="true" signature="123:297" ph="{...}" />
+                <marker date="1548633268000" expanded="true" signature="195:216" ph="{...}" />
+                <marker date="1548633268000" expanded="true" signature="274:295" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaveBakery.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1563251117939" expanded="true" signature="6:113" ph="..." />
+                <marker date="1563251117939" expanded="true" signature="155:611" ph="{...}" />
+                <marker date="1563251117939" expanded="true" signature="260:307" ph="{...}" />
+                <marker date="1563251117939" expanded="true" signature="355:609" ph="{...}" />
+                <marker date="1563251117939" expanded="true" signature="539:603" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BakerySceneLoad.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BakerySceneLoad.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+              <folding>
+                <marker date="1563251007836" expanded="false" signature="6:113" ph="..." />
+                <marker date="1563251007836" expanded="true" signature="159:998" ph="{...}" />
+                <marker date="1563251007836" expanded="true" signature="374:437" ph="{...}" />
+                <marker date="1563251007836" expanded="true" signature="494:996" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightPuzzle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/LightPuzzle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+              <folding>
+                <marker date="1549239394000" expanded="false" signature="6:113" ph="..." />
+                <marker date="1549239394000" expanded="true" signature="148:3419" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="376:495" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="553:722" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="597:716" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="752:1234" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="802:1228" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="846:1023" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="1040:1218" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="1265:1410" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="1459:2144" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="1531:2138" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2188:2618" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2259:2429" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2443:2612" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2657:2975" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2706:2849" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="2781:2839" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="3019:3058" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="3099:3237" ph="{...}" />
+                <marker date="1549239394000" expanded="true" signature="3277:3417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeleportToBakery.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToBakery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1549163430000" expanded="false" signature="6:113" ph="..." />
+                <marker date="1549163430000" expanded="true" signature="160:423" ph="{...}" />
+                <marker date="1549163430000" expanded="true" signature="233:421" ph="{...}" />
+                <marker date="1549163430000" expanded="true" signature="355:415" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,12 +333,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/LightPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToHome.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BakerySceneLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToBakery.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs" />
+        <option value="$PROJECT_DIR$/Assets/BakerySceneLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs" />
       </list>
     </option>
   </component>
@@ -50,9 +358,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="734" />
+    <option name="x" value="-1088" />
+    <option name="y" value="-317" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -60,11 +369,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -75,6 +384,29 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GameJam2019" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam2019" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam2019" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam2019" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam2019" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
@@ -123,11 +455,13 @@
       <updated>1548482893557</updated>
       <workItem from="1548482900854" duration="316000" />
       <workItem from="1548483624691" duration="1303000" />
+      <workItem from="1563248057612" duration="598000" />
+      <workItem from="1563249428867" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1619000" />
+    <option name="totallyTimeSpent" value="4067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,71 +473,223 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
+    <frame x="-1088" y="-317" width="1096" height="1896" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.3987441" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32967034" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2635135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3301887" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3987441" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3987441" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.3301887" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
           <folding>
-            <marker date="1548484593620" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548484593620" expanded="true" signature="123:297" ph="{...}" />
-            <marker date="1548484593620" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1548484593620" expanded="true" signature="274:295" ph="{...}" />
+            <marker date="1549235344000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549235344000" expanded="true" signature="125:666" ph="{...}" />
+            <marker date="1549235344000" expanded="true" signature="383:664" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="1137" column="4" selection-start-line="1137" selection-start-column="4" selection-end-line="1137" selection-end-column="4" />
+        <state>
+          <folding>
+            <marker date="1563250469598" expanded="false" signature="6:91" ph="..." />
+            <marker date="1563250469598" expanded="true" signature="144:4584" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="562:614" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="685:730" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="757:1115" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="820:906" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="980:1109" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1159:1493" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1305:1429" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1348:1419" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1528:2023" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1556:1752" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2085:2614" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2129:2220" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2233:2321" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2401:2582" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2641:2689" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2738:2938" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2860:2900" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2986:3028" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3076:3711" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3113:3705" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3166:3239" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3308:3532" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3596:3695" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3760:4202" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3853:3893" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3987:4196" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4034:4102" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4256:4392" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4448:4582" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+    <entry file="file:///Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state>
           <folding>
-            <marker date="1548484593620" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548484593620" expanded="true" signature="123:297" ph="{...}" />
-            <marker date="1548484593620" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1548484593620" expanded="true" signature="274:295" ph="{...}" />
+            <marker date="1549235344000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549235344000" expanded="true" signature="125:666" ph="{...}" />
+            <marker date="1549235344000" expanded="true" signature="383:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/LightPuzzle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding>
+            <marker date="1549239394000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549239394000" expanded="true" signature="148:3419" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="376:495" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="553:722" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="597:716" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="752:1234" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="802:1228" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="846:1023" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="1040:1218" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="1265:1410" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="1459:2144" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="1531:2138" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2188:2618" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2259:2429" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2443:2612" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2657:2975" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2706:2849" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="2781:2839" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="3019:3058" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="3099:3237" ph="{...}" />
+            <marker date="1549239394000" expanded="true" signature="3277:3417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToBakery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549163430000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549163430000" expanded="true" signature="160:423" ph="{...}" />
+            <marker date="1549163430000" expanded="true" signature="233:421" ph="{...}" />
+            <marker date="1549163430000" expanded="true" signature="355:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/TeleportToHome.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1548633268000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548633268000" expanded="true" signature="123:297" ph="{...}" />
+            <marker date="1548633268000" expanded="true" signature="195:216" ph="{...}" />
+            <marker date="1548633268000" expanded="true" signature="274:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dialog/DialogSystemController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <marker date="1563250469598" expanded="false" signature="6:91" ph="..." />
+            <marker date="1563250469598" expanded="true" signature="144:4584" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="562:614" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="685:730" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="757:1115" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="820:906" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="980:1109" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1159:1493" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1305:1429" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1348:1419" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1528:2023" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="1556:1752" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2085:2614" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2129:2220" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2233:2321" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2401:2582" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2641:2689" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2738:2938" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2860:2900" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="2986:3028" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3076:3711" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3113:3705" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3166:3239" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3308:3532" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3596:3695" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3760:4202" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3853:3893" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="3987:4196" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4034:4102" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4256:4392" ph="{...}" />
+            <marker date="1563250469598" expanded="true" signature="4448:4582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BakerySceneLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding>
+            <marker date="1563251007836" expanded="false" signature="6:113" ph="..." />
+            <marker date="1563251007836" expanded="true" signature="159:998" ph="{...}" />
+            <marker date="1563251007836" expanded="true" signature="374:437" ph="{...}" />
+            <marker date="1563251007836" expanded="true" signature="494:996" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/LeaveBakery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1563251117939" expanded="true" signature="6:113" ph="..." />
+            <marker date="1563251117939" expanded="true" signature="155:611" ph="{...}" />
+            <marker date="1563251117939" expanded="true" signature="260:307" ph="{...}" />
+            <marker date="1563251117939" expanded="true" signature="355:609" ph="{...}" />
+            <marker date="1563251117939" expanded="true" signature="539:603" ph="{...}" />
           </folding>
         </state>
       </provider>

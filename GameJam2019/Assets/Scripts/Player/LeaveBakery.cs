@@ -8,6 +8,11 @@ public class LeaveBakery : MonoBehaviour
 	public GameObject puzzle;
 	public GameObject player;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        player = other.gameObject;
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (puzzle.GetComponent<LightPuzzle>().isOver && other.gameObject.name == "DialogTriggerBox2"
